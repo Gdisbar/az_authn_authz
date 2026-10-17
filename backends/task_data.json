@@ -1,0 +1,47 @@
+[
+  {
+    "task_id": "TSK-1001",
+    "user_id": "USR-4521",
+    "task_name": "Fix authentication token expiration bug",
+    "task_start_time": "2026-10-17T08:30:00Z",
+    "task_end_time": "2026-10-17T12:00:00Z",
+    "priority": "Critical",
+    "status": "InProgress"
+  },
+  {
+    "task_id": "TSK-1002",
+    "user_id": "USR-4521",
+    "task_name": "Update API documentation for v2 endpoints",
+    "task_start_time": "2026-10-17T13:00:00Z",
+    "task_end_time": "2026-10-17T17:00:00Z",
+    "priority": "Medium",
+    "status": "Pending"
+  },
+  {
+    "task_id": "TSK-1003",
+    "user_id": "USR-8902",
+    "task_name": "Database migration backup and verification",
+    "task_start_time": "2026-10-16T22:00:00Z",
+    "task_end_time": "2026-10-16T23:30:00Z",
+    "priority": "High",
+    "status": "Completed"
+  },
+  {
+    "task_id": "TSK-1004",
+    "user_id": "USR-3314",
+    "task_name": "Design system dark mode color palette review",
+    "task_start_time": "2026-10-18T09:00:00Z",
+    "task_end_time": "2026-10-18T11:00:00Z",
+    "priority": "Low",
+    "status": "InQueue"
+  },
+  {
+    "task_id": "TSK-1005",
+    "user_id": "USR-8902",
+    "task_name": "Configure automated security vulnerability scans",
+    "task_start_time": "2026-10-18T14:00:00Z",
+    "task_end_time": "2026-10-18T16:00:00Z",
+    "priority": "High",
+    "status": "Pending"
+  }
+]
