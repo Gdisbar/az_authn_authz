@@ -4,4 +4,3 @@ venv
 .env
 __pycache__/
 ./backends/__pycache__/
-az_authn_authz-packed*.md

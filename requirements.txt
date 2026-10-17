@@ -2,3 +2,4 @@ fastapi
 uvicorn
 aiofiles
 fastapi-azure-auth
+python-dotenv

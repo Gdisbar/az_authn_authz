@@ -1,14 +1,14 @@
 import json
 from pathlib import Path
 import asyncio
-from typing import List
 import aiofiles
 from fastapi import APIRouter, Depends, HTTPException
 from .model import SingleResponse
+from auth import azure_scheme
 
 router = APIRouter(
     prefix="/api/services",
-    responses={404:{"desciption":"Endpoint not found"}}
+    responses={404:{"description":"Endpoint not found"}}
 )
 
 async def get_task_database() -> list[dict]:
